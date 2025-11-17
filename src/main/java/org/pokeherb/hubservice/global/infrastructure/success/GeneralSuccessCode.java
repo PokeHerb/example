@@ -1,4 +1,4 @@
-package org.pokeherb.hubservice.global.infrastructure;
+package org.pokeherb.hubservice.global.infrastructure.success;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -6,7 +6,7 @@ import org.springframework.http.HttpStatus;
 
 @Getter
 @AllArgsConstructor
-public enum GeneralSuccessCode implements BaseSuccessCode{
+public enum GeneralSuccessCode implements BaseSuccessCode {
 
     // 200
     OK(HttpStatus.OK, "200", "요청에 성공했습니다."),

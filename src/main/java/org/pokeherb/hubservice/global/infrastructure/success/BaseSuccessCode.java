@@ -1,4 +1,4 @@
-package org.pokeherb.hubservice.global.infrastructure;
+package org.pokeherb.hubservice.global.infrastructure.success;
 
 import org.springframework.http.HttpStatus;
 
